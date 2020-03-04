@@ -1,0 +1,43 @@
+integrator               = sd
+dt                       = 0.002
+nsteps                   = 6000000
+nstxout                  = 5000
+nstvout                  = 5000
+nstlog                   = 5000
+nstenergy                = 250
+;nstxout-compressed       = 250
+rlist                    = 1.0
+coulombtype              = PME
+pme_order                = 6
+fourierspacing = 0.1
+cutoff-scheme   = Verlet
+ns_type = grid        ; search neighboring grid cells
+nstlist    = 10        ; 20 fs, largely irrelevant with Verlet
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+; and pressure to 1 bar
+pcoupl = parrinello-rahman
+ref-p = 1
+compressibility = 4.5e-5
+tau-p = 5 
+gen-vel                  = $GEN_VEL$
+gen-temp                 = 300
+gen-seed                 = 173529
+constraints              = hbonds
+constraint_algorithm =  lincs
+lincs-order =  12
+tc_grps             =  System
+tau_t               =  1.0 
+ld_seed             =  -1
+ref_t = 298.15 
+
+; Free energy
+free_energy = yes
+init-lambda-state = $STATE$
+calc-lambda-neighbors = -1
+sc_alpha = 0.0
+couple-lambda1 = vdw-q
+fep-lambdas = $ALL_LAMBDAS$
+coul-lambdas = $ALL_LAMBDAS$
+vdw-lambdas = $ALL_LAMBDAS$
+DispCorr = EnerPres

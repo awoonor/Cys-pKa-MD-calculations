@@ -1,0 +1,10 @@
+; itp for neutralization of CL
+
+[ moleculetype ]
+; Name            nrexcl
+Other_chain_I_FEP       1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1        CLA     1    CL    CL      1         -1      35.45   CLA 0.0 35.45
+
