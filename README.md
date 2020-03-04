@@ -1,2 +1,2 @@
 # Cys-pKa-MD-calculations
-Automate Cys pKa Molecular Dynamics Calculations 
+A simple workflow to have Cys pKa Molecular Dynamics Calculations automated using the Gromacs MD package and PBS job scheduling. 
