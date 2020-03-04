@@ -1,2 +1,2 @@
-# Cys-pK_{a}-MD-calculations
+# Cys-pKa-MD-calculations
 Automate Cys pKa Molecular Dynamics Calculations 
