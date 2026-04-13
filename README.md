@@ -22,5 +22,5 @@ The methodologies employed and automated within these scripts were developed and
 > **Awoonor-Williams, E., and Rowley, C. N.** Evaluation of Methods for the Calculation of the pK<sub>a</sub> of Cysteine Residues in Proteins. *Journal of Chemical Theory and Computation (JCTC)*, **2016**, 12(9), 4662-4673.  
 > **DOI:** [10.1021/acs.jctc.6b00631](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00631)
 
-> **Awoonor-Williams, E., and Rowley, C. N.** Molecular Simulation of the pK<sub>a</sub> of Cysteine Residues in Proteins Using a Generalized Born Model. *Journal of Chemical Information and Modeling (JCIM)*, **2018**, 58(9), 1935-1946.  
+> **Awoonor-Williams, E., and Rowley, C. N.** How Reactive are Druggable Cysteines in Protein Kinases? *Journal of Chemical Information and Modeling (JCIM)*, **2018**, 58(9), 1935-1946.  
 > **DOI:** [10.1021/acs.jcim.8b00454](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00454)
