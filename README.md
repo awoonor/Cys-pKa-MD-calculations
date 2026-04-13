@@ -5,7 +5,7 @@ This repository contains a suite of automated scripts designed to streamline **R
 ## 📁 Repository Structure
 
 * **`scripts/`** Contains the core Python and Bash scripts used to set up, automate, and analyze the RETI-MD calculations.
-* **`mdp_templates/`** Standard GROMACS `.mdp` parameter files required for running the minimization, equilibration, and RETI-MD production phases.
+* **`parameter_files/`** Standard GROMACS `.mdp` parameter files required for running the minimization, equilibration, and RETI-MD production phases.
 * **`example_PDB/`** Sample input files and directory structures to help users test the workflow and run their first calculation.
 
 ## ⚙️ Dependencies & Requirements
